@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.phone{
+    color: white;
+}
+.phone a{
+    color: white;
+}
+.phone a i{
+    background: white;
+    color: #007bff;
+}
+.email{
+    color: white;
+
+}
+.email a{
+    color: white;
+}
+
+
+.email a i{
+    background: white;
+    color: #007bff;
+    padding: 1px 2px;
+}
+
+
+.navbar-brand img{
+    width: 200px;
+}
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+.banner-section .owl-theme .owl-nav .owl-next {
+    position: absolute;
+    right: 40px;
+    bottom: -20px;
+
+}
+
+
+.owl-theme .owl-dots {
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: rgb(74, 74, 238);
+}
+
+.after-left-border-white, .after-left-border-primary, .after-left-border-secondary {
+    position: relative;
+    padding-left: 66px;
+}
+
+.after-left-border-primary:before {
+    background: blue;
+}
+.after-left-border-white:before, .after-left-border-primary:before, .after-left-border-secondary:before
+ {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #007bff;
+    height: 2px;
+    width: 50px;
+ }
+
+
+.text-main {
+    color: rgb(34, 119, 248);
+}
+.md-title {
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 600;
+    color: #424242;
+}
+.owl-carousel.owl-theme.test .item img{
+    height: 250px;
+
+}
